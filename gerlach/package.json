@@ -1,0 +1,16 @@
+{
+  "name": "gerlach",
+  "version": "1.0.0",
+  "description": "Cloud server that exposes a public web API and a server socket. Reuests to the Web API are tunnelled through the that socket ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristoffer Andersen <stoffera@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.29.1",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4"
+  }
+}
