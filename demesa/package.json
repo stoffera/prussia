@@ -1,0 +1,14 @@
+{
+  "name": "demesa",
+  "version": "1.0.0",
+  "description": "Client to bridge between the Daikin Wifi Controller and the Gerlach server. It connect via TCP to Gerlach and waits for commands to be received.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristoffer Andersen <stoffera@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.29.1"
+  }
+}

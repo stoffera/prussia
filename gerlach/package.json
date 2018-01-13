@@ -1,10 +1,11 @@
 {
   "name": "gerlach",
   "version": "1.0.0",
-  "description": "Cloud server that exposes a public web API and a server socket. Reuests to the Web API are tunnelled through the that socket ",
+  "description": "Cloud server that exposes a public web API and a server socket. Requests to the Web API are tunnelled through the that socket ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Kristoffer Andersen <stoffera@gmail.com>",
   "license": "ISC",
